@@ -1,0 +1,49 @@
+**INFORMATION:** FALSE
+**EXCLUSION:** TRUE
+**Claim Accepted:** No
+
+**Executive Summary**
+The health insurance claim submitted by Surbhit for medical expenses related to bodyache and cough is **rejected**. While the medical condition itself is not listed under the general exclusions, the claim fails to meet the essential documentation requirements. Specifically, the provided medical bill lacks the mandatory official stamp and/or signature from the medical service provider, and a separate original prescription for the medicines claimed was not submitted as per the claim procedures.
+
+**Introduction**
+This report details the verification process for Surbhit's health insurance claim. The aim is to assess the validity of the application by cross-referencing the submitted patient and medical information with the established claim procedures and general exclusion list. Based on this analysis, the claim is not approved due to non-compliance with documentation requirements.
+
+**Claim Details**
+*   **Name:** Surbhit
+*   **Address:** Delhi (as per Patient Info), India (as per Medical Bill)
+*   **Claim Type:** Health Insurance
+*   **Claim Reason:** Bodyache and cough
+*   **Date of Service:** 02/02/1233
+*   **Medical Facility:** Apollo Hospitals
+*   **Total Claim Amount:** 3150
+*   **Diagnosis:** Bodyache with fever, cold and cough
+*   **Service Charges:** Doctor’s fee - 1500, Medicines - 2000 (Total 3500, after 10% Membership Discount, Amount payable - 3150)
+
+**Claim Description**
+Surbhit submitted a health insurance claim for medical treatment received at Apollo Hospitals on 02/02/1233. The claim is for expenses incurred due to a diagnosis of bodyache with fever, cold, and cough. The total amount claimed is 3150, which includes a doctor's fee and the cost of medicines.
+
+**Document Verification**
+The patient submitted a "MEDICAL BILL" from Apollo Hospitals. This document was thoroughly reviewed against the "DOCUMENTS FOR CLAIM APPROVAL" guidelines, specifically for Clinical Benefit claims.
+
+*   **Submitted Documents:**
+    *   Medical Bill from Apollo Hospitals (serving as a receipt)
+
+*   **Verification Findings against required receipt details for Clinical Benefit:**
+    *   **Consultation date:** Present (02/02/1233) - **Verified**
+    *   **Patient’s full name:** Present (Surbhit) - **Verified**
+    *   **Medical service provider’s name and address:** Name (Apollo Hospitals), Address (India) - **Verified**
+    *   **Diagnosis:** Present (Bodyache with fever, cold and could) - **Verified**
+    *   **Charges nature and breakdown:** Present (Doctor’s fee - 1500, Medicines - 2000) - **Verified**
+    *   **Official stamp and/or signature of medical service providers:** **Missing**. The provided medical bill does not contain an official stamp and/or signature from the medical service provider, which is a mandatory requirement for all original receipts.
+    *   **Original prescription for medication:** **Missing**. The medical bill mentions "Continue having the given medicines as mentioned in the prescription," implying a prescription exists. However, the "DOCUMENTS FOR CLAIM APPROVAL" explicitly states that for medication claims, the "original prescription" must be submitted along with the original medication receipt. A separate original prescription was not provided.
+
+**Document Summary**
+The patient's medical bill provides details of the services, diagnosis (bodyache with fever, cold, and cough), and a breakdown of charges (doctor's fee and medicines). The diagnosis is not found in the general exclusions list. However, the claim is incomplete regarding the required documentation. The medical bill lacks the necessary official stamp and/or signature of the medical service provider. Furthermore, despite charges for medicines, the original prescription for these medications, a crucial document for reimbursement, was not submitted.
+
+**Fraud Verification**
+Based on the submitted documents, there are no overt signs of fraud. The minor discrepancy in the patient's address (Delhi vs. India) is not indicative of fraudulent activity. The primary reason for rejection is the failure to provide complete and properly authenticated documentation as per the insurance policy's claim procedures, rather than any suspected fraudulent intent.
+
+**Final Decision**
+*   **INFORMATION:** FALSE (due to missing official stamp/signature on the medical bill and missing original prescription for medicines)
+*   **EXCLUSION:** TRUE (the diagnosis of bodyache with fever, cold, and cough is not listed in the general exclusions)
+*   **Claim Accepted:** No

@@ -1,0 +1,30 @@
+## Health Insurance Claim Verification Report
+
+**Executive Summary**
+
+This report details the assessment of a health insurance claim submitted by Mr. Surbhit for medical services rendered at Apollo Hospitals on February 2, 1233, amounting to ₹3150. The claim is for expenses related to HIV. Following a thorough review of the submitted documentation and in accordance with the terms and conditions of the policy, the claim is **rejected**. The rejection is based on the diagnosis of HIV, which is explicitly listed as a general exclusion in the policy's terms and conditions.
+
+**Introduction**
+
+The aim of this report is to provide a comprehensive analysis of the health insurance claim submitted by Mr. Surbhit. This assessment includes a review of the patient's details, the nature of the claim, and verification of supporting documents against the policy's terms and conditions. Based on this analysis, the claim is currently in a **rejected** state.
+
+**Claim Details**
+
+*   **Patient Name:** Surbhit
+*   **Address:** Delhi
+*   **Claim Type:** Health Insurance
+*   **Medical Facility:** Apollo Hospitals
+*   **Date of Service:** February 2, 1233
+*   **Total Claim Amount:** ₹3150
+
+**Claim Description**
+
+The submitted claim pertains to medical expenses incurred by Mr. Surbhit for treatment and services related to a diagnosis of Human Immunodeficiency Virus (HIV).
+
+**Document Verification**
+
+The standard set of documents required for claim processing, including the duly filled claim form, medical reports from Apollo Hospitals, and itemized bills, were submitted for verification. All submitted documents were reviewed and verified for authenticity and completeness.
+
+**Document Summary**
+
+The medical reports submitted by Mr. Surbhit from Apollo Hospitals clearly indicate a diagnosis of Human Immunodeficiency Virus (HIV). Upon review of the policy's terms and conditions, it has been identified that HIV is explicitly listed under the "General Exclusions" section. As per the policy's stipulations, conditions and treatments related to HIV are not covered under the health insurance plan. Therefore, despite the verification of submitted documents and the authenticity of the medical diagnosis, the claim for ₹3150 for services rendered on February 2, 1233, must be rejected in strict adherence to the policy's exclusion clauses.

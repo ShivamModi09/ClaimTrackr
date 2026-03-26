@@ -1,0 +1,41 @@
+INFORMATION: TRUE
+EXCLUSION: TRUE
+Claim Accepted: Yes
+Approved Amount: ₹1000
+
+**Executive Summary**
+The health insurance claim submitted by Surbhit for a Viral Upper Respiratory Infection has been thoroughly reviewed against the provided claim procedures and exclusion list. All necessary documentation, including consultation and medication receipts, and a doctor's prescription, were provided and found to be complete and valid. The diagnosis is not listed under the general exclusions. Therefore, the claim is accepted, and an amount of ₹1000 is approved, which is the maximum allowable as per policy guidelines.
+
+**Introduction**
+This report details the verification process for the health insurance claim submitted by Surbhit. The analysis was conducted based on the provided claim procedures, the general exclusion list, patient information, and the medical bill to determine the validity of the claim and decide on its acceptance or rejection. Based on the assessment, the claim is valid and has been accepted.
+
+**Claim Details**
+*   **Name:** Surbhit
+*   **Address:** Delhi
+*   **Claim Type:** Health Insurance (Clinical Benefit)
+*   **Claim Reason:** Bodyache and cough (Diagnosis: Viral Upper Respiratory Infection)
+*   **Date of Service:** 2026-03-10
+*   **Medical Facility:** Apollo Hospitals
+*   **Total Claim Amount:** ₹1100
+
+**Claim Description**
+The patient, Surbhit, sought medical consultation at Apollo Hospitals on 2026-03-10 for symptoms of body ache and cough. The diagnosis provided was Viral Upper Respiratory Infection. The submitted claim includes expenses for a doctor's consultation and prescribed medications (Paracetamol and Cough Syrup) from City Pharmacy.
+
+**Document Verification**
+The following documents were submitted for the claim and verified against the "DOCUMENTS FOR CLAIM APPROVAL" guidelines for Clinical Benefit:
+
+1.  **Consultation Receipt:** This document from Apollo Hospitals includes the patient’s full name (Surbhit), medical service provider’s name and address (Apollo Hospitals, Sector 18, New Delhi), diagnosis (Viral Upper Respiratory Infection), charges nature and breakdown (Consultation Fee: ₹800), official hospital stamp, and doctor’s signature (Dr. A. Kumar). The consultation date is inferred from the Date of Service and Prescription date. All required information is present.
+2.  **Medication Receipt:** This receipt from City Pharmacy includes the patient’s full name (Surbhit), diagnosis (Viral Upper Respiratory Infection), medicine charges breakdown (Paracetamol Tablets – ₹120, Cough Syrup – ₹180), pharmacy stamp, and pharmacist’s signature. The pharmacy name and address are also provided. All required information is present.
+3.  **Doctor Prescription:** The original prescription from Dr. A. Kumar at Apollo Hospitals is provided. It includes the doctor’s name, hospital, date (2026-03-10), patient details (Surbhit, 30/M), diagnosis (Viral Upper Respiratory Infection), prescribed medications (Paracetamol, Cough Syrup, Multivitamin), and the doctor’s signature. All required information is present.
+4.  **Claimant Declaration:** The patient's signature and the date (2026-03-10) are present, confirming the originality of the submitted documents.
+
+Based on this verification, all necessary information and documents have been provided, setting the **INFORMATION criteria as TRUE**.
+
+**Document Summary**
+The patient, Surbhit, received medical treatment for a Viral Upper Respiratory Infection on March 10, 2026, at Apollo Hospitals and City Pharmacy. The medical bill details a consultation fee of ₹800 and medication costs of ₹300, amounting to a total claim of ₹1100. The submitted consultation receipt, medication receipt, and doctor's prescription are complete, bearing all necessary details such as patient name, diagnosis, service provider information, charge breakdown, official stamps, and signatures. The diagnosis of Viral Upper Respiratory Infection is a common medical condition.
+
+**Exclusion List Verification:**
+The diagnosis for the patient is "Viral Upper Respiratory Infection (fever, body ache, cough)". A thorough review of the "General exclusions" list was conducted. The diagnosis of Viral Upper Respiratory Infection is not explicitly or implicitly mentioned in any of the exclusion clauses (e.g., pre-existing conditions, not medically necessary, cosmetic treatment, specific diseases like Senile Dementia or Parkinson's, dental conditions, war-related injuries, non-medical services). Therefore, the **EXCLUSION criteria is set as TRUE**.
+
+**Fraud Verification**
+Upon review of the submitted claim documents, no signs of fraud were detected. The consultation receipt, medication receipt, and doctor's prescription are consistent with each other, bear appropriate official stamps and signatures, and accurately reflect the patient's details and the medical services received for a common illness. The charges appear reasonable for the described services and medications.

@@ -1,0 +1,10 @@
+services:
+  claimtrackr:
+    build: .                 # Tells Docker to build the image from the current folder
+    image: shivammodi09/claimtrackr-app:latest        # Tells Docker to automatically pull the image
+    container_name: claimtrackr-container
+    ports:
+      - "8000:8000"          # Maps host port 8000 to container port 8000
+    env_file:
+      - .env                 # Automatically loads your variables
+    restart: on-failure          # Restarts the app if it crashes

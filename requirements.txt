@@ -1,0 +1,20 @@
+# Core Web Server
+fastapi
+uvicorn
+python-multipart
+
+# LangChain & AI
+langchain_classic
+langchain-google-genai
+langchain-community
+langchain-text-splitters
+langchain-pinecone==0.2.13
+langchain-huggingface
+
+# Database & Documents
+sentence-transformers
+pinecone==7.3.0
+pdfplumber
+
+# Environment Management
+python-dotenv

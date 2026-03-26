@@ -1,0 +1,15 @@
+.venv
+.git
+.gitignore
+.env
+.env.example
+.DS_Store
+.spyproject
+__pycache__
+docker-compose.yml
+Dockerfile
+requirements.txt
+ProjectNotes.txt
+bills
+documents
+README.md
