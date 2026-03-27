@@ -2,6 +2,8 @@
 
 **AI-Powered Health Insurance Claim Evaluation**
 
+![ClaimTrackr Demo](demo.gif)
+
 ClaimTrackr is an LLM-powered RAG system for evaluating health insurance claims against policy documents, exclusions, and supporting records. It combines semantic retrieval, FastAPI, Pinecone, and Docker to deliver a reproducible, deployment-ready workflow.
 
 ---
