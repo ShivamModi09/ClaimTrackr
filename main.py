@@ -53,61 +53,60 @@ async def submit_claim(
         patient_info = (
             f"Name: {name}\nAddress: {address}\nClaim Type: {claim_type}\n"
             f"Claim Reason: {claim_reason}\nDate of Service: {date}\nMedical Facility: {medical_facility}\n"
-            f"Total Claim Amount: {total_claim_amount}\nDescription (provided by user): {description or ''}\n"
+            f"Total Claim Amount: {total_claim_amount}\nDescription: {description or ''}\n"
         )
 
-        
-        extracted_data = get_file_content(medical_bill.file)
-        
-        # get bill expense & disease
-        medical_bill_data = get_bill_info(
-            extracted_data, 
-            llm
-            )
-        
-        bill_expense = medical_bill_data['expense']
-        bill_disease = medical_bill_data['disease']
-        
-        if bill_expense != None and bill_expense < total_claim_amount:
-            result = (
+        # COST-OPTIMIZATION: Initial semantic check on the user-provided reason
+        # (Saves 2 LLM calls and PDF processing time)
+        if not process_claim(claim_reason)[0]:
+            return PlainTextResponse(
                 "Claim Rejected.\n\n"
-                "The claimed amount exceeds the total expense identified in the submitted medical bill. "
-                "According to standard claim verification procedures, the claim amount must not be greater than the billed medical expense." 
-                "Please review the claim details and ensure that the submitted claim amount accurately reflects the amount mentioned in the medical invoice."
-                "You may resubmit the claim with corrected information if necessary."
-                )
+                f"The reason provided ('{claim_reason}') falls under general policy exclusions. "
+                "According to policy guidelines, this category is not eligible for reimbursement."
+            )
 
+        # EXTRACTION: Only executed if the initial reason passes (LLM Call #1)
+        extracted_data = get_file_content(medical_bill.file)
+        medical_bill_data = get_bill_info(extracted_data, llm)
         
-        elif bill_expense != None and bill_expense >= total_claim_amount:
-            # Decide which prompt template to use (may return REJECTED_PROMPT)
-            prompt_template = process_claim(bill_disease)
-            
-            llm_chain = LLMChain(
-                llm = llm,
-                prompt = PromptTemplate.from_template(prompt_template)
-                )
-            
-            max_amount = 1000 # max claim amount
-            
-            result = get_claim_report(
-                max_amount= max_amount,
-                llm_chain= llm_chain,
-                medical_bill_info= extracted_data,
-                patient_info= patient_info, 
-                disease= bill_disease,
-                claim_context= CLAIM_CTX,
-                exclusion_context= EXCL_CTX
-                )
-            
-        else:
-            #If no expense value has been extracted
-            result = (
+        bill_expense = medical_bill_data.get('expense')
+        bill_disease = medical_bill_data.get('disease')
+
+        if not bill_expense or not bill_disease:
+            return PlainTextResponse(
                 "Claim Processing Failed.\n\n"
                 "The system was unable to extract the required billing information from the uploaded medical receipt." 
                 "This usually occurs when the document is unclear, incomplete, or does not contain recognizable billing details such as the total expense or treatment summary."
                 "Please upload a clear and valid consultation receipt or medical invoice and try submitting the claim again."
-                )
-            
+            )
+
+        if bill_expense < total_claim_amount:
+            return PlainTextResponse(
+                "Claim Rejected.\n\n"
+                "The submitted claim amount exceeds the total expense found in the medical invoice. "
+                f"Invoiced Total: {bill_expense}, Claimed Amount: {total_claim_amount}. "
+                "Please verify the amounts and resubmit your claim."
+            )
+
+        _, prompt_template = process_claim(bill_disease)
+
+        llm_chain = LLMChain(
+            llm=llm,
+            prompt=PromptTemplate.from_template(prompt_template)
+        )
+
+        max_amount = 1000  # Internal policy limit
+        
+        result = get_claim_report(
+            max_amount=max_amount,
+            llm_chain=llm_chain,
+            medical_bill_info=extracted_data,
+            patient_info=patient_info, 
+            disease=bill_disease,
+            claim_context=CLAIM_CTX,
+            exclusion_context=EXCL_CTX
+            )
+        
         return PlainTextResponse(result)
 
     except Exception as e:

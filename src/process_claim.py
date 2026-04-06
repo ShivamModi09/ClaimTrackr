@@ -81,8 +81,8 @@ def process_claim(disease, prompt_template = PROMPT, threshold=0.5):
     sims = cosine_similarity(claim_vec, excl_vecs)
     
     if sims.max() > threshold:
-        return REJECTED_PROMPT
-    return prompt_template
+        return False, REJECTED_PROMPT
+    return True, prompt_template
 
 
 def get_claim_report(llm_chain, max_amount, medical_bill_info, patient_info, disease, claim_context, exclusion_context):
